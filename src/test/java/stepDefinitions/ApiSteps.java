@@ -14,7 +14,7 @@ public class ApiSteps {
     }
 
     @And("User creates new user with request body {string},{string},{string},")
-    public void userCreatesNewUserWithRequestBody(String name, String gender, String arg2) {
+    public void userCreatesNewUserWithRequestBody(String name, String gender, String email) {
     }
 
     @Then("validate the status code {int}")
